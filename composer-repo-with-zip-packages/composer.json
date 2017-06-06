@@ -1,0 +1,13 @@
+{
+  "repositories": {
+    "baz": {
+      "type": "artifact",
+      "url": "../packages-as-zip-files/"
+    }
+  },
+  "require": {
+    "mfacenet/hello-world": "1.0.3",
+    "acme/package-foo": "1.0.5",
+    "acme/package-bar": "1.0.0"
+  }
+}
