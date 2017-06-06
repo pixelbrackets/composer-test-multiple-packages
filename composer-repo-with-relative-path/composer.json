@@ -1,0 +1,17 @@
+{
+  "repositories": {
+    "foo": {
+      "type": "path",
+      "url": "../packages/package-foo"
+    },
+    "bar": {
+      "type": "path",
+      "url": "../packages/package-bar"
+    }
+  },
+  "require": {
+    "mfacenet/hello-world": "1.0.3",
+    "acme/package-foo": "dev-master",
+    "acme/package-bar": "dev-master"
+  }
+}
