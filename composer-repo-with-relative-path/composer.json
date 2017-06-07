@@ -1,12 +1,8 @@
 {
   "repositories": {
-    "foo": {
+    "baz": {
       "type": "path",
-      "url": "../packages/package-foo"
-    },
-    "bar": {
-      "type": "path",
-      "url": "../packages/package-bar"
+      "url": "../packages/*"
     }
   },
   "require": {

@@ -1,15 +1,15 @@
+Note: Artifacts require a »version« property in the `composer.json` of 
+the required packages! Make sure that these exist.
+
+    cd package-foo && composer config version 1.0.5 && zip -r ../acme-package-foo_1.0.5.zip *
+
 Add a relative path to the folder containing ZIP-files
 
     composer config repositories.foo '{"type": "artifact", "url": "../packages-as-zip-files/"}'
 
-Note: Artifacts require a »version« property in the `composer.json` of 
-the required packages!
+Require the package with a specific version
 
-    cd package-foo && composer config version 1.0.5 && zip -r ../acme-package-foo_1.0.5.zip *
-
-Require the package
-
-    composer require acme/package-foo 1.0.5
+    composer require acme/package-foo:1.0.5 acme/package-bar:1.0.0
 
 Fetch packages
 
